@@ -9,6 +9,10 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+
+  printThisPage() {
+    window.print();
+  }
   ngOnInit(): void {
   }
 
