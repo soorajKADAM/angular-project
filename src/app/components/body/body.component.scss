@@ -7,27 +7,41 @@
 @import '../../../../node_modules/@syncfusion/ej2-navigations/styles/material.css';
 @import '../../../../node_modules/@syncfusion/ej2-popups/styles/material.css';
 @import '../../../../node_modules/@syncfusion/ej2-richtexteditor/styles/material.css';
-.float-container {
+.mat-toolbar {
    
-    padding: 20px;
+    background-color:white;
  
+    .mat-toolbar-row{
+        height: 471px;
+        padding: 30px;
+        
+    
+    }
+    
+
 }
+
 
 .float-child {
     width: 50%;
     float: left;
     padding: 20px;
-    height: 800px;;
+    height: 400px;
+    bottom: 64px;
  
 
     .title{
-        color:#fff;
+        color:rgb(2, 14, 53);
+        
     }
-    img{
-        width:500px;
-        height: 300px;
-    }
+
+    
+   
     
 
 }  
 
+img{
+    width:400px;
+    height: 200px;
+}

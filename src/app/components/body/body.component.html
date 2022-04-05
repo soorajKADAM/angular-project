@@ -1,24 +1,14 @@
-
-<div class="float-container">
-
-    <div class="float-child">
-      <div class="title">Add Title</div>
-      
-        <img src="https://www.sportsunfold.com/wp-content/uploads/2021/06/The-Witcher-3.jpg" alt="">
-   
-     
+<mat-toolbar >
+  <mat-toolbar-row fxLayoutAlign="space-between center">
+    <div><span class="title"> Add Title</span>
+    <div><img src="../../../assets/gow.webp" alt=""></div>
     </div>
-    
-    <div class="float-child">
-      <div class="title">Add Description</div>
-      <div class="editor">
-        <ejs-richtexteditor height='300px'>
-            <ng-template>
-                <p>rich text editor edits </p>
-            </ng-template>
-        </ejs-richtexteditor>
+    <div>
+      <ejs-richtexteditor height='300px' width='500px'>
+        <ng-template>
+            <p>rich text editor edits </p>
+        </ng-template>
+    </ejs-richtexteditor>
     </div>
-     
-    </div>
-    
-  </div>
+  </mat-toolbar-row>
+</mat-toolbar>

@@ -1,45 +1,40 @@
-.search {
-    &-container {
+.mat-toolbar {
+   
       width: 100%;
       height: 60px;
       background-color: #323a45;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
       position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 4;
-    }
+      top:0%;
+    
+    
   
-    &-form {
-        width: 800px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+      z-index: 4;
+    
+  
 
   
  }
     
-    .logo {
-      margin-left: 5px;
+ .mat-icon {
+      
       cursor: pointer;
       width: 40px;
       height: 40px;
     }
 
+
+    img{
+      width: 40px;
+      height: 40px;
+
+    }
     .logotext{
         width: 10500px;
         margin-left:60px;
         top: 20px;
-      color: #fff;
+      color: whitesmoke;
       font-weight: 700;
       cursor: pointer;
       text-decoration: none;
 
-      button{
-        float: right;
-        background-color: aqua;
-        border-radius: 5px;
-      }
     }

@@ -1,42 +1,40 @@
-.footer {
+.mat-toolbar {
    
-    &-container {
-      width: 100%;
-      height: 60px;
-      background-color: #323a45;
-      display: flex;
-      justify-content: flex-start;
-      align-items: center;
-      position: fixed;
-     
-      z-index: 4;
-      
-bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: #323a45;
+position: fixed;
+bottom:0%;
 
-    }
+
+
+  z-index: 4;
+
+
+
+
+}
+
+.mat-icon {
   
-    &-form {
-        width: 800px;
-        max-width: 1200px;
-        margin: 0 auto;
-    }
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
 
-  
- }
-    
-    .logo {
-      margin-left: 5px;
-      cursor: pointer;
-      width: 40px;
-      height: 40px;
-    }
 
-    .logotext{
-        width: 10500px;
-        margin-left:60px;
-        top: 20px;
-      color: #fff;
-      font-weight: 700;
-      cursor: pointer;
-      text-decoration: none;
-    }
+img{
+  width: 40px;
+  height: 40px;
+
+}
+.logotext{
+    width: 10500px;
+    margin-left:60px;
+    top: 20px;
+  color: whitesmoke;
+  font-weight: 700;
+  cursor: pointer;
+  text-decoration: none;
+
+}

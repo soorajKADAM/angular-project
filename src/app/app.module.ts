@@ -12,6 +12,10 @@ import { HeaderComponent } from './components/header/header.component';
 import { BodyComponent } from './components/body/body.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { RichTextEditorModule, ToolbarService ,LinkService,ImageService,HtmlEditorService} from '@syncfusion/ej2-angular-richtexteditor'
+import { FlexLayoutModule } from '@angular/flex-layout';
+import {MatToolbarModule} from '@angular/material/toolbar';
+import {MatButtonModule} from '@angular/material/button';
+
 @NgModule({
   declarations: [
 
@@ -30,7 +34,11 @@ import { RichTextEditorModule, ToolbarService ,LinkService,ImageService,HtmlEdit
     MatSelectModule,
     MatTabsModule,
     MatIconModule,
-    RichTextEditorModule
+    RichTextEditorModule,
+    FlexLayoutModule,
+    MatToolbarModule,
+    MatButtonModule,
+   
     
   ],
   providers: [ToolbarService ,LinkService,ImageService,HtmlEditorService],
