@@ -29,7 +29,7 @@ import { ToolbarService, LinkService, ImageService, HtmlEditorService } from '@s
 
 
 export class BodyComponent implements OnInit {
-
+  componentName="Body";
   constructor() { }
 
   ngOnInit(): void {

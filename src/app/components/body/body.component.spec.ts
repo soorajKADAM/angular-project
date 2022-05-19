@@ -22,4 +22,8 @@ describe('BodyComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it("testing component name",()=>{
+    expect(component.componentName).toBe("Body");
+  })
 });

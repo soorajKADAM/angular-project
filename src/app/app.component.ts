@@ -11,7 +11,7 @@ import jsPDF from 'jspdf';
 })
 export class AppComponent  {
 
-
+title="project"
   
   exportAsPDF() 
   {
